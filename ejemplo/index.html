@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="galeria">
+	<head>
+		<title></title>
+	</head>
+	<body ng-controller="fondo">
+		<p>Que Buscas</p>
+		<input ng-model="Nombre" type="text">
+		<div ng-if="'Zombies'==Nombre">
+			<h1>The Ultimo Dia</h1>
+			<img src="https://static.vix.com/es/sites/default/files/styles/large/public/btg/gamer.batanga.com/files/7-juegos-de-zombies-para-Android-que-no-debes-perderte-1.jpg?itok=F2dMaIn3">
+			<img src="https://pbs.twimg.com/media/DOwYL7xW4AANKtu.jpg:large">
+			<img src="https://cde.peru.com//ima/0/0/5/2/2/522260/924x530.jpg">
+			<img src="https://i.ytimg.com/vi/lzGdEq3D4Qk/maxresdefault.jpg">
+			<p>{{rigby}}</p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+		<script src="script.js"></script>
+
+	</body>
+</html>

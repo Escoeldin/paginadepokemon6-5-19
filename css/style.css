@@ -1,0 +1,111 @@
+body{
+	background-image: url(https://besthqwallpapers.com/Uploads/27-2-2018/42191/thumb2-ash-ketchum-pikachu-art-ash-pokemon.jpg);
+	-webkit-background-image:cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.container {
+	color: white;
+	
+	width: 990px;
+	font-family: arial black;
+}
+.container img{
+	background-position: center;
+	height: 150px;
+	width: 90%;
+
+
+}
+.menu{
+	width: 470px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: center;
+	margin-top: 25px;
+	background: green;
+	font-family: arial;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: white;
+	font-family: verdana
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s,color 1s;
+}
+
+.container2 {
+	background-color: blue;
+	color: white;
+	font-family: arial black;
+	border: 1px solid #ccc;
+}
+
+.container3 img{
+	padding: 10px;
+	width: 950px;
+	height: 200px;
+}
+
+.container3{
+	color: white;
+}
+
+.container3 h1 {
+	color: yellow;
+	font-family: verdana;
+}
+.container3 h2 {
+	color: red;
+	font-family: verdana;
+}
+
+#izq{
+	width: 540px;
+	height: auto; overflow: hidden;
+	float: left;
+	padding: 5px;
+	color: white;
+}
+
+#izq h2 {
+	font-family: verdana;
+	text-align: center;
+	padding: 1px;
+
+}
+
+#izq p {
+	text-align: center;
+}
+
+#izq img {
+	width: 250px;
+	height: 250px;
+} 
+
+#der img {
+	width: 430px;
+	height: 250px;
+}
+
+#izq a {
+	color: red;
+}
+
+/**-----binario----**/
+01100101 01101100 01100100 01101001 01101110
